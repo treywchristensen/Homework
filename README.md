@@ -1,9 +1,9 @@
 # Trey Christensen
 ## Future Data Analyst
 
--Gain a better understanding of data analytics
--Propel a future career in the field
--Find employment in the field
+1. Gain a better understanding of data analytics
+2. Propel a future career in the field
+3. Find employment in the field
 
 Here you will find a good article for beginners in Python [Python for Beginners](https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python).
 
