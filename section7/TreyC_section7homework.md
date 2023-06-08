@@ -28,7 +28,7 @@ SELECT Make, Model from EVRegistry WHERE BaseMSRP BETWEEN 20000 AND 35000
 ## Question 1 - Using EVRegistry, write a query to find a record where the City attribute is NULL. Return all of the available columns.
 ```SQL
 
-SELECT City FROM EVRegistry Where City = NULL
+SELECT * FROM EVRegistry Where City IS NULL
 
 ```
 ## Question 2 - Write a query to find the make, model, and ElectricVehicleType where the VIN number has that ends in '3E1EA1J'.
@@ -52,7 +52,7 @@ ORDER BY Make, ModelYear DESC
 SELECT stationId, count(stationid) as 'count'
 FROM EVCharging
 GROUP BY stationId
-ORDER BY count(stationid) DESC
+ORDER BY count DESC
 LIMIT 5
 
 ```
