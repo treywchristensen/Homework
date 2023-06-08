@@ -2,25 +2,25 @@
 ## Question 1 - Using EVregistry, Write a query to select the ModelYear, Make, and Model off all of the vehicles in the registry.
 ```SQL
 
---SELECT ModelYear, Make, Model from EVRegistry 
+SELECT ModelYear, Make, Model from EVRegistry 
 
 ```
 ## Question 2 - Using the EVRegistry table, Write a query that lists all of the unique types of EV's. your reult set should have one column, ElectricVehicleType.
 ```SQL
 
---SELECT DISTINCT ElectricVehicleType from EVRegistry
+SELECT DISTINCT ElectricVehicleType from EVRegistry
 
 ```
 ## Question 3 - Using the EVRegistry, Write a query that shows all of the information on Battery Electric Vehicles (BEV) that are in the registry.
 ```SQL
 
---SELECT * FROM EVRegistry Where ElectricVehicleType = 'Battery Electric Vehicle (BEV)' 
+SELECT * FROM EVRegistry Where ElectricVehicleType = 'Battery Electric Vehicle (BEV)' 
 
 ```
 ## Question 4 - Using the EVRegistry, wirte a query that returns the Make and Model of all of the EV's that have a BaseMSRP between 20000 and 35000?
 ```SQL
 
---SELECT Make, Model from EVRegistry WHERE BaseMSRP BETWEEN 20000 AND 35000 
+SELECT Make, Model from EVRegistry WHERE BaseMSRP BETWEEN 20000 AND 35000 
 
 ```
 
@@ -99,13 +99,13 @@
 
 ```
 ## Question 4 - In your own words, Briefly explain Primary Keys and Foreign Keys.
-```SQL
+
 
 **The Primary Key uniquely identifies each record in the table - ALl values are unique and do not contain NULL values.**
 
 **The Foreign Key is used to connect to other tables. It is used to identify the primary key in a connected table.**
 
-```
+
 ## Question 5 - Using EV Charging, For the folks who charged longer than one hour, show the min and max of the charging time for each user. Your output columns should be userid, minTime, and maxTime. Order this result set by the last two columns respectively. HINT: USE HAVING
 ```SQL
 
